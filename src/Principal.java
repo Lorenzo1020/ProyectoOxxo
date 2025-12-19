@@ -15,6 +15,9 @@ public class Principal {
 		// clase aqui
 		Productos producto = new Productos();
 
+		System.out.println("Hola mundo");
+		System.out.println("Tienes " + 10);
+
 		// Pasar los datos al objeto --- Set(enviar)
 		producto.setNombre("Barritas");
 		producto.setPrecio(20.5f);
